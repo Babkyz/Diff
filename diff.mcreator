@@ -1,0 +1,67 @@
+{
+  "mod_elements": [
+    {
+      "name": "Bobr",
+      "type": "animatedentity",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bobr",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diff/client/renderer/BobrRenderer.java",
+          "src/main/java/net/mcreator/diff/entity/BobrEntity.java",
+          "src/main/java/net/mcreator/diff/entity/model/BobrModel.java",
+          "src/main/resources/assets/diff/models/item/bobr_spawn_egg.json",
+          "src/main/resources/data/diff/forge/biome_modifier/bobr_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "Diff",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diff",
+      "metadata": {
+        "files": []
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.diff.bobr_spawn_egg": "Bobr Spawn Egg",
+      "entity.diff.bobr": "Bobr",
+      "item_group.diff.diff": "Diff"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "diff",
+    "modName": "Diff",
+    "version": "1.0.0",
+    "author": "opasn, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "mcreator_link",
+      "geckolib"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.diff",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}
